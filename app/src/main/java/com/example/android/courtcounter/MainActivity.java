@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Add to the scores for each team, every time a button is pressed.
+     * Add to the scores for team A, every time a button is pressed.
      */
     public void threeForTeamA(View view) {
         scoreForTeamA += 3;
@@ -50,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(scoreForTeamA);
     }
 
+    /**
+     * Add to the scores for team A, every time a button is pressed.
+     */
     public void threeForTeamB(View view) {
         scoreForTeamB += 3;
         displayForTeamB(scoreForTeamB);
@@ -65,6 +68,9 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(scoreForTeamB);
     }
 
+    /**
+     * reset scores for a new game
+     */
     public void resetScores(View view) {
         scoreForTeamA = 0;
         scoreForTeamB = 0;

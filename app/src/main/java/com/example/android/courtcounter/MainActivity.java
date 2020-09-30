@@ -1,6 +1,7 @@
 package com.example.android.courtcounter;
 
 import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity; //it will work in 2020 since v7 code is now not working and showing error
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
